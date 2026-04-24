@@ -138,13 +138,20 @@ git clone https://github.com/victorgmsds/IA_atv2.git
 cd IA_atv2
 ```
 
-### 2. Instalar dependências
+### 2. Criar ambiente virtual
+```bash
+python -m venv venv
+source venv/bin/activate #Linux/Mac
+venv\Scripts\activate #Windows
+```
+
+### 3. Instalar dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Executar o notebook
+### 4. Executar o notebook
 
 ```bash
 jupyter notebook atv2.ipynb
