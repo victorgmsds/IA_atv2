@@ -159,7 +159,7 @@ Execute todas as células em ordem (`Kernel → Restart & Run All`).
 ```
 📦 nome-do-repositorio
  ┣ 📓 atv2.ipynb          # Notebook principal com todo o pipeline
- ┣ 📄 Dados.mat            # Série temporal da usina (não versionado)
+ ┣ 📄 Dados.mat            # Série temporal da usina
  ┣ 📄 requirements.txt     # Dependências do projeto
  ┗ 📄 README.md            # Este arquivo
 ```
